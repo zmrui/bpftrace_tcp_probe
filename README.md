@@ -22,3 +22,9 @@ In another terminal
 ```shell
 curl google.com
 ```
+
+## Example output
+```
+TIME, source:sport, dest:dport,  data_len, Sequence, AckSequence, snd_cwnd, snd_ssthresh, srtt_us, rcv_wnd
+14:00:33.506838,192.168.0.1:47172,10.0.0.2:5201,2896,2400176031,781558132,38,26,267805,42496
+```
